@@ -1,0 +1,13 @@
+[project]
+name = "airhub-xhs-text-adapter"
+version = "1.0.0"
+description = "Minimal no-login XHS text adapter for AirHub"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "httpx[http2]>=0.28.1,<0.29",
+    "lxml>=5.3,<7",
+    "PyYAML>=6.0.2,<7",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,55 @@
+# Local credentials
+config/deepseek.json
+config/xiaoyuzhou_credentials.json
+.env
+.env.*
+
+# Python and package-manager state
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# AirHub runtime state and generated content
+cache/
+attachments/
+data/
+inbox/
+processing/
+finished/
+filtered/
+metadata/
+Work_dirs/
+Logs/
+logs/
+manual/**/*.txt
+scope/*.csv
+!scope/example.csv
+
+# Downloaded models and media
+*.bin
+*.ckpt
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.wav
+*.mp3
+*.m4a
+*.mp4
+
+# XHS isolated runtime
+xhs/.venv/
+xhs/Volume/
+
+# Editors and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

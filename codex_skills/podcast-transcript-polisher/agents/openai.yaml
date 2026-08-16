@@ -1,0 +1,4 @@
+interface:
+  display_name: "Podcast Transcript Polisher"
+  short_description: "Polish diarized Whisper transcripts for AirHub podcast HTML"
+  default_prompt: "Use $podcast-transcript-polisher to correct the prepared AirHub podcast transcript chunk and write the required JSON result."

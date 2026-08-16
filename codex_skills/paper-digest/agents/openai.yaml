@@ -1,0 +1,7 @@
+interface:
+  display_name: "AirHub Paper Digest"
+  short_description: "Create Chinese Article HTML digests"
+  default_prompt: "Use $paper-digest to turn a prepared AirHub Article JSON into a self-contained Chinese HTML digest."
+
+policy:
+  allow_implicit_invocation: true

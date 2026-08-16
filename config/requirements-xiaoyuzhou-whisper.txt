@@ -1,0 +1,9 @@
+# faster-whisper 1.1.0 首次正式支持 large-v3-turbo；AirHub 的代码固定使用 turbo。
+faster-whisper==1.1.0
+modelscope==1.20.0
+# 隔离节点用户目录中的新版 Transformers，确保 ModelScope 备源可导入（不用于推理）。
+transformers==4.46.3
+# 节点的 SciPy/PyTorch 扩展使用 NumPy 1.x ABI；声学聚类也只需该稳定 ABI。
+numpy==1.26.4
+# 播客公开页面和音频下载器依赖 requests；隔离环境不继承系统包。
+requests>=2.31,<3

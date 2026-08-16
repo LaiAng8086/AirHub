@@ -1,0 +1,4 @@
+interface:
+  display_name: "XHS Link Classifier"
+  short_description: "Classify XHS note targets into Blog URLs or arXiv IDs"
+  default_prompt: "Use $xhs-link-classifier to process the prepared AirHub XHS classification job and write the required JSON result."

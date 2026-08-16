@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "type": "arxiv",
+      "name": "arxiv-cs-ai",
+      "enabled": true,
+      "query": "(cat:cs.AI AND cat:cs.CV) OR (cat:cs.AI AND cat:cs.RO)",
+      "max_results": 300,
+      "download_pdf": true,
+      "prepare_pdf_figures": true,
+      "prepare_arxiv_html": true,
+      "html_min_content_chars": 8000
+    },
+    {
+      "type": "blog",
+      "name": "example-blog",
+      "enabled": false,
+      "rss": "https://example.com/feed.xml",
+      "tags": ["blog"]
+    },
+    {
+      "type": "huggingface",
+      "name": "hf-papers-placeholder",
+      "enabled": false
+    },
+    {
+      "type": "podcast",
+      "name": "podcast-placeholder",
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+language: zh-CN
+mathjax: true
+inline_images: true
+asset_embed:
+  max_width: 980
+  quality: 84
